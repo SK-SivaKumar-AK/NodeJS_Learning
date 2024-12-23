@@ -1,0 +1,5 @@
+node server.js
+
+node 
+ctrl + d to exit
+
