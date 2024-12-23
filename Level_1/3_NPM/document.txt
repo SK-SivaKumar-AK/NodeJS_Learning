@@ -1,0 +1,40 @@
+npm i nodemon -g  (for global env)
+npm i uuid@9.1.1
+npm rm nodemon -D  (for remove) 
+
+NPM Initialize:
+Step-1 : npm init 
+
+
+Step-2 : npm i date-fps (for production env)
+
+
+Reference : (node module(gitignore) and composer.json(npm install) update)
+Step-3 : npm run dev
+
+
+
+
+New package install:
+Step-1 : Already npm init (composer.json)
+
+Step-2 : npm i nodemon -D  (for development env)
+
+Reference : (node module(gitignore) and composer.json(npm install) update)
+
+Step-3 : npm run dev
+
+
+
+
+
+New package install:
+Step-1 : Already npm init (composer.json)
+
+Step-2 : npm i uuid  (for production env)
+
+Reference : (node module(gitignore) and composer.json(npm install) update)
+
+Step-3 : npm run dev
+
+
