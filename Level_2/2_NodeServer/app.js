@@ -37,6 +37,8 @@ const server = http.createServer((req , res) => {
             let message = parseBody.split('&');
             message = message[0].split('=');
             console.log(message);
+
+            /* This is Non=Blocking section */
             fs.writeFile('hello.txt' , `${message[0]} : ${message[1]}` , (err) => {  
                 res.setHeader('location' , '/');
                 res.statusCode = 302;
