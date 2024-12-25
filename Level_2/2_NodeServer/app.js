@@ -38,7 +38,7 @@ const server = http.createServer((req , res) => {
             message = message[0].split('=');
             console.log(message);
 
-            /* This is Non=Blocking section */
+            /* This is Non=Blocking section because its async function so handle like this.*/
             fs.writeFile('hello.txt' , `${message[0]} : ${message[1]}` , (err) => {  
                 res.setHeader('location' , '/');
                 res.statusCode = 302;
