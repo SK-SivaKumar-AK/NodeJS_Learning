@@ -1,0 +1,7 @@
+npm init (first time)
+
+npm install nodemon -g (global)
+npm install nodemon --save (Production)
+npm install nodemon --save-dev (development)
+
+npm install

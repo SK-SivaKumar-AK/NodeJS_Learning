@@ -1,0 +1,1 @@
+require('./3_NodeJS_Internal/app');
