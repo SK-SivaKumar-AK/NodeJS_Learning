@@ -1,1 +1,1 @@
-require('./6_Additionals/app');
+require('./7_MVC/app');
