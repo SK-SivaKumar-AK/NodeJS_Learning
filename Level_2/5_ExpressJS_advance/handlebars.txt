@@ -1,0 +1,27 @@
+npm i express-handlebars --save
+
+//Because very long ext.
+const { engine } = require('express-handlebars');
+app.engine('hbs' , engine({
+    extname : '.hbs',
+    defaultLayout : 'main
+}));
+
+app.set('view engine' , 'hbs');
+
+{{}} // passing values
+{{#if byusing pasing value}}
+    {{#each courses}}
+        {{this}} or {{this.name}}
+    {{/each}}
+{{else if}}
+{{else}}
+{{/if}}
+
+
+main.hbs==
+header 
+
+{{{body}}}    //main content automatically selected
+
+footer

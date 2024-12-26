@@ -1,0 +1,10 @@
+npm i ejs --save
+
+<%-include(templates/header.ejs)%>  //for html data
+<%=title%>   // for passing value
+<% if(expression) { %>
+    <% a.foreach((val) => {  %>
+
+    <% }) %>
+<%} %>
+<%-include(templates/footer.ejs)%>  //for html data

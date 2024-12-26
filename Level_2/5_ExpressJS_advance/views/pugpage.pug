@@ -1,0 +1,17 @@
+extends templates/main.pug
+
+block styles 
+    link(rel="stylesheet" href="/style.css")
+    
+block content
+    div(style="background-color:yellow;")
+        h2 Courses
+        if courses.length > 0
+            ul 
+                each course in courses
+                    li #{course}
+            ul 
+                each course_Obj in courses_Obj
+                    li #{course_Obj.name}
+        else
+            p No Courses Available.
